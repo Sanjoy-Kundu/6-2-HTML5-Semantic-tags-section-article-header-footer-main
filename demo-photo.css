@@ -1,0 +1,139 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#full-body {
+	height: 500px;
+	width: 900px;
+	border: 3px solid black;
+	margin: 77px auto;
+}
+header {
+	width: 100%;
+	height: 69px;
+	background-color: #91aa37;
+}
+header nav 
+{
+	height: 30px;
+	width: 100%;
+	background-color: #5C6636;
+	border: 2px solid green;
+}
+main {
+	height: 363px;
+	width: 100%;
+	background-color: #78acc1;
+	display: flex;
+}
+main .section{
+	width: 75%;
+	height: 363px;
+}
+aside {
+	height: 100%;
+	width: 25%;
+	background-color: yellow;
+}
+#footer {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	color: #0d0909;
+	text-shadow: 2px 3px 6px #000;
+	background: #C16656;
+	height: 68px;
+}
+.first-part {
+	width: 100%;
+	background-color: tomato;
+	height: 97px;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+}
+.my-blog-side-1 {
+	border: 1px solid black;
+	width: 50%;
+	height: 100%;
+	background: #bd290f;
+	text-align: center;
+}
+.my-blog-side{
+	border: 1px solid black;
+width: 50%;
+height: 100%;
+background: #bd290f;
+text-align: center;
+}
+.section #main-header {
+	width: 100%;
+	height: 40px;
+	background: #b0b06b;
+	text-align: center;
+}
+.second-part {
+	width: 100%;
+	height: 132px;
+	border: ;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0px;
+	background: #DB2E10;
+	}
+
+.card-one {
+height: 140px;
+width: 30%;
+border: 1px solid darkblue;
+}
+.card-one:nth-child(2n+1){
+	background-color: #FFFF00;
+}
+.card-one:nth-child(2n) {
+	background-color: #BD290F;
+}
+.card-one img {
+
+}
+.card-one h1 {
+
+}
+.card-one p {
+
+}
+ .second-part-footer {
+	text-align: center;
+	background-color: #db2e10;
+	width: 100%;
+	height: 66px;
+	border-bottom: 4px dotted #fff;
+	color: #fff;
+	font-size: 30px;
+}
+.section-right-aside {
+	height: 66px;
+	width: 100%;
+	background-color: yellowgreen;
+}
+.section-right-two {
+	height: 80px;
+	width: 100%;
+	background: #d0d045;
+	display: flex;
+	justify-content: space-around;
+}
+.article-right-2-1 {
+	background: #B0B02D;
+	padding: 10px;
+	width: 45%;
+}
+.article-right-2-2 {
+	background: #7b7b30;
+	padding: 10px;
+	width: 45%;
+}
+iframe {
+	height: 217px;
+	width: 225px;
+}
